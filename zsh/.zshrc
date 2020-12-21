@@ -76,7 +76,7 @@ fuck () {
 
 # Rustup
 # https://rustup.rs/
-[[ -s source $HOME/.cargo/env ]] && source $HOME/.cargo/env
+[[ -s $HOME/.cargo/env ]] && source $HOME/.cargo/env
 
 # N
 # https://github.com/tj/n
